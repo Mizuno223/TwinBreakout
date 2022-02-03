@@ -5,10 +5,10 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float speed;
-    Rigidbody myRigidbody;
+    private Rigidbody myRigidbody;
     void Start()
     {
-        muyRigidbody = GetComponent<Rigidbody>();
+        myRigidbody = GetComponent<Rigidbody>();
     }
 
     void Update()

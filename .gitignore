@@ -11,7 +11,7 @@
 Library
 Temp
 Builds
-Log
+Logs
 
 # Built Visual Studio Code Extensions
 *.vsix

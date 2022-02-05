@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     public Text gameOverMessage;
+    public Text retryMessage;
     bool isGameOver = false;
 
     void Update() {
@@ -18,6 +19,7 @@ public class GameOver : MonoBehaviour
 
     void OnCollisionEnter(Collision collision) {
         gameOverMessage.text = "Game Over";
+        retryMessage.text = "Retry -> Enter";
         Destroy(collision.gameObject);
         isGameOver = true;
     }

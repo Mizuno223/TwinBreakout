@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameClear : MonoBehaviour
 {
     public Text gameClearMessage; 
+    public Text retryMessage;
     Transform myTransform;
     bool isGameClear = false;
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class GameClear : MonoBehaviour
         if (myTransform.childCount == 0)
         {
             gameClearMessage.text = "Game Clear";
+            retryMessage.text = "Retry -> Enter";
             Time.timeScale = 0f;
             isGameClear = true;
         }

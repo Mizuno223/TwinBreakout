@@ -6,7 +6,7 @@ public class Ball : MonoBehaviour
 {
     public float speed;
     public float minSpeed = 5f;
-    public float maxSpeed = 10f;
+    public float maxSpeed = 5f;
     Rigidbody myRigidbody;
     Transform myTransform;
     void Start()

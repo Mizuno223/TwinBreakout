@@ -12,7 +12,7 @@ public class GameOver : MonoBehaviour
     void Update() {
         if (isGameOver && Input.GetButtonDown("Submit")) 
         {
-            SceneManager.LoadScene("Play");
+            SceneManager.LoadScene("PlayScene");
         }
     }
 

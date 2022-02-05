@@ -28,7 +28,7 @@ public class GameClear : MonoBehaviour
         if (isGameClear && Input.GetButtonDown("Submit"))
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("Play");
+            SceneManager.LoadScene("PlayScene");
         }
     }
 }

@@ -8,7 +8,7 @@ public class ResetText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Text myText = GetComponent<myText>();
+        Text myText = GetComponent<Text>();
         myText.text = "";
     }
 

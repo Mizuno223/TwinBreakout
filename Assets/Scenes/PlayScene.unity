@@ -735,7 +735,6 @@ GameObject:
   - component: {fileID: 1203345125}
   - component: {fileID: 1203345124}
   - component: {fileID: 1203345127}
-  - component: {fileID: 1203345128}
   m_Layer: 0
   m_Name: Bottom Wall
   m_TagString: Untagged
@@ -832,19 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverMessage: {fileID: 430721731}
---- !u!114 &1203345128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203345122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d5b7db91fbcc4c4c95c37a88db8c60b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverMessage: {fileID: 1382544340}
+  retryMessage: {fileID: 1382544340}
 --- !u!4 &1352971611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3393732979613707137, guid: d31d0279fb502c143a43cd46b2d7d794, type: 3}
@@ -1059,7 +1046,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1984701762}
   - component: {fileID: 1984701763}
-  - component: {fileID: 1984701764}
   m_Layer: 0
   m_Name: Blocks
   m_TagString: Untagged
@@ -1109,19 +1095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameClearMessage: {fileID: 430721731}
---- !u!114 &1984701764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984701761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7527f322a06e89488c6a9530986d722, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameClearMessage: {fileID: 1382544340}
+  retryMessage: {fileID: 1382544340}
 --- !u!1 &2072962833
 GameObject:
   m_ObjectHideFlags: 0

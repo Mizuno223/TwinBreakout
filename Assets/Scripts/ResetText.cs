@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class ResetText : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Text retry; 
     void Start()
     {
         Text myText = GetComponent<Text>();
         myText.text = "";
+        retry.text = "";
     }
 
 }

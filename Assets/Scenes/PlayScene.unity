@@ -248,8 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f309a333b0d97f45867ea2ceeafa573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  minSpeed: 5
+  speed: 10
+  minSpeed: 10
   maxSpeed: 10
 --- !u!4 &106989054 stripped
 Transform:
@@ -363,6 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05c9e26edb9350146bc97889eaf6a1d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  retry: {fileID: 1382544340}
 --- !u!1 &505035049
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +495,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1356,7 +1357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29ef265ddf8d6fb47b8a61400c14ffc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 13
 --- !u!1001 &423364708527755911
 PrefabInstance:
   m_ObjectHideFlags: 0

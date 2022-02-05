@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameClear : MonoBehaviour
 {
     public Text gameClearMessage; 
     Transform myTransform;
+    bool isGameClear = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,13 @@ public class GameClear : MonoBehaviour
         {
             gameClearMessage.text = "Game Clear";
             Time.timeScale = 0f;
+            isGameClear = true;
+        }
+
+        if (isGameClear && Input.GetButtonDown("Submit"))
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("Play");
         }
     }
 }

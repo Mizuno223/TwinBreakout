@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class GameOver_l : MonoBehaviour
 {
     public Text gameOverMessage;
     public Text retryMessage;
@@ -19,7 +19,7 @@ public class GameOver : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collision) {
-        gameOverMessage.text = "Game Over";
+        gameOverMessage.text = "2P WIN!";
         retryMessage.text = "Retry -> Enter";
         Destroy(collision.gameObject);
         isGameOver = true;

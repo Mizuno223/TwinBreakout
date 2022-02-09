@@ -13,6 +13,7 @@ public class GameOver : MonoBehaviour
     void Update() {
         if (isGameOver && Input.GetButtonDown("Submit")) 
         {
+            Time.timeScale = 1;
             SceneManager.LoadScene("PlayScene");
         }
     }
@@ -22,5 +23,6 @@ public class GameOver : MonoBehaviour
         retryMessage.text = "Retry -> Enter";
         Destroy(collision.gameObject);
         isGameOver = true;
+        Time.timeScale = 0;
     }
 }

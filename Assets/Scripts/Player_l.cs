@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player_l : MonoBehaviour
 {
     public float speed;
     private Rigidbody myRigidbody;
@@ -13,9 +13,9 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        myRigidbody.velocity = new Vector3 (Input.GetAxis("Horizontal") * speed, 0f, 0f);
+        myRigidbody.velocity = new Vector3 (Input.GetAxis("Horizontal1") * speed, 0f, 0f);
 
-        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
         {
             myRigidbody.velocity = Vector3.zero;
         }

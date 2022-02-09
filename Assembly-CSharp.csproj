@@ -36,15 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GameClear.cs" />
+     <Compile Include="Assets\Scripts\GameClear_l.cs" />
      <Compile Include="Assets\Scripts\GameOver_l.cs" />
      <Compile Include="Assets\Scripts\StartButton.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\GameOver_r.cs" />
      <Compile Include="Assets\Scripts\Block.cs" />
      <Compile Include="Assets\Scripts\Player_r.cs" />
-     <Compile Include="Assets\Scripts\ResetText.cs" />
      <Compile Include="Assets\Scripts\Player_l.cs" />
-     <Compile Include="Assets\Scripts\GameOver_r.cs" />
+     <Compile Include="Assets\Scripts\ResetText.cs" />
+     <Compile Include="Assets\Scripts\GameClear_r.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -642,6 +643,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -690,6 +694,9 @@
     <Reference Include="Unity.2D.PixelPerfect.Editor">
         <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+        <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -707,12 +714,6 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-        <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>C:\Users\water\Unity\TwinBreakout\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>

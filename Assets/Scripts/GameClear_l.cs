@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameClear : MonoBehaviour
+public class GameClear_l : MonoBehaviour
 {
     public Text gameClearMessage; 
     public Text retryMessage;
@@ -21,7 +21,7 @@ public class GameClear : MonoBehaviour
     {
         if (myTransform.childCount == 0)
         {
-            gameClearMessage.text = "Game Clear";
+            gameClearMessage.text = "1P WIN!";
             retryMessage.text = "Retry -> Enter";
             Time.timeScale = 0f;
             isGameClear = true;
